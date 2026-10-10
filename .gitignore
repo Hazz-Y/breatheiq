@@ -1,0 +1,21 @@
+# dependencies & builds
+node_modules/
+dist/
+*.tsbuildinfo
+
+# large / non-code assets kept locally
+video/
+report/
+*.pdf
+*.mp4
+
+# office lock files, OS & editor noise
+~$*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# secrets
+.env
+.env.*
